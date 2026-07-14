@@ -1,0 +1,116 @@
+
+.body{
+    font-family:"Montserrat", sans-serif;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    font-family:"Montserrat", sans-serif;
+    padding-left: 10%;
+    padding-right:10%;
+}
+.lg{
+    font-family:"Montserrat", sans-serif;
+    font-weight: 600;
+    align-content: center;
+}
+.lg a{
+    color: black;
+    text-decoration: none;
+}
+.banner{
+    position: relative;
+    width: 100%;
+    max-width:1200px;
+    margin: 0 auto;
+}
+.imp{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding:15px 100px 0px 100px;
+}
+.imp img{
+    max-width:100%;
+    max-height:auto;
+}
+.welcome p{
+    padding-top:0px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family:"Montserrat", sans-serif ;
+    font-size: xx-large;
+    font-weight:500;
+}
+.welcome{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50% ,-115%);
+     text-align: center;
+     z-index:10 ;
+}
+.sec{
+    display:flex;
+    justify-content: center;
+    gap:30%;
+    padding:15px 100px 0px 100px;
+     transform: translate(-9% ,-1200%);
+}
+.sec a{
+    display: block;
+    position:absolute;
+    top:50%;
+    transform: translate();
+    justify-content:space-between;
+    background-color: #e4002b;
+    color: white;
+    padding-left:80px;
+    padding-right:80px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius:5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: small;
+    font-family:"Montserrat", sans-serif;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:"Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: large;
+}
+
+.feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    f
+}
+.feature div{
+    margin-top: 30px;
+}
+.feature img{
+    width: 1000px;
+}
+.footer ul{
+    display: flex;
+    gap: 15px;
+    padding-left:115px;
+    padding-bottom:10%;
+}
+.footer a {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-family:"Montserrat", sans-serif;
+    font-size: smaller;
+    font-weight: 600;
+}
